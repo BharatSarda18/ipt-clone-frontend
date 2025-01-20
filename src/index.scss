@@ -1,0 +1,34 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+// css file import
+@import './styles/fonts/fonts.scss';
+@import '../src/App.scss';
+
+
+// uikit file import
+@import './styles/uikit/loader.scss';
+@import './styles/uikit/toaster.scss';
+
+
+// fonts to html
+html, body{
+  font-family: 'Montserrat' !important;
+}
+textarea{
+  font-family: 'Montserrat' !important; 
+  resize: none !important;
+}
+input {
+  font-family: 'Montserrat' !important;
+}
+button{
+  font-family: 'Montserrat' !important;
+}

@@ -1,0 +1,89 @@
+.toaster-css {
+  border-radius: 4px;
+  border: 1px solid #e93c3c;
+  padding: 10px;
+  background-color: #ffe4e6;
+  width: 100%;
+  height: 100%;
+}
+
+.toaster-css-for-success {
+  max-width: 365px;
+  width: 290px;
+  min-height: 69px;
+  border-radius: 4px;
+  border: 1px solid #1ab759;
+  padding: 10px;
+  background-color: #d1fae5;
+}
+
+.toaster-error {
+  font-family: "Montserrat" !important;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 18px;
+  color: #e93c3c;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.toaster-success-msg {
+  font-family: "Montserrat" !important;
+  font-size: 14px !important;
+  font-weight: 400;
+  line-height: 22px;
+  color: #272833;
+}
+.toaster-success {
+  font-family: "Montserrat" !important;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 18px;
+  color: #1ab759;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.flex-propertie-wi-jc {
+  display: flex;
+  align-items: center;
+}
+.toaster-error-msg {
+  font-family: "Montserrat" !important;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 22px;
+  color: #272833;
+}
+.error-toat-close-icon {
+  color: #a0a4a8;
+  width: 10px;
+  height: 10px;
+  cursor: pointer;
+  font-size: 10px;
+}
+.error-tri {
+  width: 20px;
+  height: 20px;
+  margin-right: 10px;
+}
+.main-toaster-class {
+  padding: 0 !important;
+}
+.main-toaster-class > div {
+  margin: 0 !important;
+}
+
+.base-toast {
+  background-color: #fdff81;
+  color: #e96d3c; /* Amber */
+  display: flex !important;
+  align-items: center !important;
+  justify-content: space-between !important;
+  padding: 6px !important;
+  border-radius: 4px !important;
+}
+
+.base-toast-message {
+  padding: 12px 14px !important;
+}
